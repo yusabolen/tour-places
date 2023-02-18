@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+   
+}
+.nav{
+    padding-top: 1rem;;
+    background-color: rgb(10, 69, 50);
+    justify-content:center ;
+    display: flex;
+    align-items: end;
+}
+a{
+ padding: 1rem;
+ cursor: pointer;
+ color: white;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+a:hover{
+    background-color: bisque;
+}
